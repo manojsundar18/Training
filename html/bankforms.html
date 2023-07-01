@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Digital form</title>
+    <style>
+      body{
+              background-image: url(https://www.revechat.com/wp-content/uploads/2022/07/customer-service-in-banking-.jpg) no-repeat top left;
+                    }
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>Pyramidions bank pvt.ltd</h1>
+        <h1 class="main-header">Account Application Form.</h1>
+        <hr>
+    <form id="app-form" action="">
+    <fieldset class="sub-container" id="basic-details">
+      <h2>Basic Details</h2>
+      <hr>
+        <label for="dropdown" class="standard-label">
+          <span>Title*</span>
+          <br>
+          <select>
+            <option>Select Title</option>
+            <option>Mr</option>
+            <option>Mrs</option>
+            <option>Miss</option>
+            <option>Ms</option>
+        </select>
+    </label>
+    <label>
+      <span>First Name</span>
+      <input type="text" placeholder="First name...">
+    </label>
+    <label>
+     <span>Last Name</span>
+      <input type="text" placeholder="Last name...">
+    </label>
+    <label>
+     <span>Phone Number*</span>
+      <input placeholder="Example: 0123456789">
+    </label>
+    <label>
+      <span>Email*</span>
+      <input type="email" placeholder="Your email address...">
+    </label>
+    <label>
+      <span>Date of Birth*</span>
+      <input type="date" name="DOB" id="DOB">
+    </label>
+    <label>
+   <span>What type of account are you applying for?</span>
+   <br>
+   <select id="account-select">
+     <option>Choose Account</option>
+     <option>Basic Current Account</option>
+     <option>Premium Current Account</option>
+     <option>Instant Savings Account</option>
+     <option>Lifetime ISA</option>
+    </select>
+</label>
+<button type="button" id="show-address">Continue</button>
+
+
+<fieldset>
+    <h2>Address History</h2>
+    <hr>
+    <h3>Are you currently a US resident?</h3>
+    <label for="yes" class="radio-label">
+      <input class="radio-input" name="US-res" value="yes" id="yes" type="radio">Yes</input>
+    </label></label>
+    <label for="no" class="radio-label">
+      <input class="radio-input" name="US-res" value="no" id="no" type="radio">No</input>
+    </label>
+    <p id="non-uk">We're really sorry. We currently only offer banking services to US residents.</p>
+    <div id="current-address">
+</fieldset>     
+   
+    <div>
+        <h3>Previous Address</h3>
+        <label>
+          <span>Address line 1*</span>
+          <input>
+        </label>
+        <label>
+          Address line 2
+          <input>
+        </label>
+        <label>
+          <span>Town/City*</span>
+          <input>
+        </label>
+        <label>
+          County
+          <input>
+        </label>
+        <label>
+          <span>Post Code*</span>
+          <input class="standard-input" type="text" maxlength="8">
+        </label>   
+         </div>
+</body>
+</html>
